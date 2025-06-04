@@ -1,7 +1,6 @@
 # Basic Chat Completion Functions
 # Written by Jiageng Mao 
 
-import json
 from typing import List, Dict
 from agentdriver.llm_core.chat_utils import completion_with_backoff
 from agentdriver.llm_core.timeout import timeout
