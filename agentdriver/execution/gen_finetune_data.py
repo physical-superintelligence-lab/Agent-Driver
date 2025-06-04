@@ -5,7 +5,7 @@ import numpy as np
 import random
 from pathlib import Path
 
-from agentdriver.planning.planning_prmopts import planning_system_message as system_message
+from agentdriver.planning.planning_prompts import planning_system_message as system_message
 from agentdriver.planning.motion_planning import generate_messages
 
 def generate_traj_finetune_data(data_path, data_file, sample_ratio=1.0, use_gt_cot=False):
